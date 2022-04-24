@@ -1,0 +1,1071 @@
+@charset "UTF-8";
+/* line 2, C:/Users/Zero/Desktop/Новая папка (3)/sass/style.sass */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* line 1, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+header {
+  height: 50px;
+  background-color: #212121;
+}
+
+/* line 4, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 10, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 14, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu_item {
+  border-right: 2PX dotted BLACK;
+  padding-right: 28px;
+}
+
+/* line 18, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu_item:last-child {
+  border-right: none;
+}
+
+/* line 20, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader {
+  height: 84px;
+  background-color: #000000;
+  opacity: 0.6;
+}
+
+/* line 24, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader .subheader_logo {
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 27, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader .subheader_official {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 34, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+header {
+  height: 50px;
+  background-color: #212121;
+}
+
+/* line 38, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 45, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 50, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu_item {
+  border-right: 2PX dotted BLACK;
+  padding-right: 28px;
+}
+
+/* line 54, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader {
+  height: 84px;
+  background-color: #000000;
+  opacity: 0.6;
+}
+
+/* line 59, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader .subheader_logo {
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+/* line 63, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader .subheader_official {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* line 69, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+header {
+  position: relative;
+  height: 50px;
+  background-color: #212121;
+}
+
+/* line 74, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.header nav {
+  padding: 10 70px;
+}
+
+/* line 77, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* line 84, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu_link {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* line 89, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.menu_item {
+  border-right: 2PX dotted BLACK;
+  padding-right: 28px;
+}
+
+/* line 93, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader {
+  position: absolute;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0.6;
+}
+
+/* line 100, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader_coll {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 18px;
+  text-align: right;
+}
+
+/* line 107, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader_phone {
+  display: block;
+  text-align: right;
+  font-weight: 400;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 1px;
+  color: #FFFFFF;
+}
+
+/* line 117, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 11px;
+}
+
+/* line 122, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.logo {
+  margin-top: 13px;
+  width: 285px;
+  height: 32px;
+  margin: 0 15px 0 15px;
+}
+
+/* line 128, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subheader .subheader_official {
+  opacity: 0.5;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+/* line 138, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.hamburger {
+  display: none;
+}
+
+/* line 141, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.promo {
+  min-height: 800px;
+  background: url(../jpg/1524e764c89f851d5f6cce828fa9b2bd.jpg) center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+/* line 146, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 155, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 165, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* line 172, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+  margin-top: 20px;
+}
+
+/* line 2, C:/Users/Zero/Desktop/Новая папка (3)/sass/_mixin.sass */
+.promo_btn:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 185, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subbtr {
+  display: block;
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  background-image: linear-gradient(to top, #4CE2FF, #4CE2FF 100%);
+  box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* line 2, C:/Users/Zero/Desktop/Новая папка (3)/sass/_mixin.sass */
+.subbtr:hover {
+  background-image: none;
+  background-color: #1eacc7;
+}
+
+/* line 201, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.label {
+  margin-top: 11px;
+  margin: 0  auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 214, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #222222;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/* line 221, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.title {
+  margin-bottom: 0;
+  margin-top: 38px;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 230, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.reasons_block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+/* line 236, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.reasons_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 26px;
+  width: 113px;
+  height: 113px;
+  background-color: #1EACC7;
+  border-radius: 100%;
+}
+
+/* line 246, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.reasons_h2 {
+  margin-top: 11px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+/* line 256, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.reasons_subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #1EACC7;
+}
+
+/* line 266, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.reasons_text {
+  width: 288px;
+  height: 163px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #1EACC7;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #1EACC7;
+}
+
+/* line 285, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile {
+  min-height: 804px;
+  padding: 84px 0 79px  0;
+  background: url(../jpg/bb61b2a459672bd43ecfe32d09253196.jpg);
+}
+
+/* line 289, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile .row {
+  margin-top: 32px;
+}
+
+/* line 291, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item {
+  position: relative;
+  width: 320px;
+  height: 280px;
+  opacity: 0.9;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  padding-top: 92px;
+}
+
+/* line 302, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_1 {
+  background: url(../jpg/1.jpg) center center/cover no-repeat;
+}
+
+/* line 305, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_2 {
+  background: url(../jpg/2.jpg) center center/cover no-repeat;
+}
+
+/* line 308, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_3 {
+  background: url(../jpg/3.jpg) center center/cover no-repeat;
+}
+
+/* line 311, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_4 {
+  background: url(../jpg/4.jpg) center center/cover no-repeat;
+}
+
+/* line 314, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_5 {
+  background: url(../jpg/5.jpg) center center/cover no-repeat;
+}
+
+/* line 317, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_6 {
+  background: url(../jpg/6.jpg) center center/cover no-repeat;
+}
+
+/* line 320, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_subtitle {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 31px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+/* line 327, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: #000000;
+  margin: 0 auto;
+  border-radius: 100%;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+/* line 341, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_plus::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 12px;
+  height: 2PX;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 349, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_plus:after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 12px;
+  width: 2PX;
+  background-color: #1eacc7;
+  transition: 0.3s all;
+}
+
+/* line 358, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.mobile_item_plus:hover::before, .mobile_item_plus:hover:after {
+  background-color: #ff5656;
+}
+
+/* line 365, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.container_auto .label {
+  margin-top: 30px;
+  margin: 0  auto;
+  height: 24px;
+  width: 112px;
+  padding: 5px 12px;
+  color: #070716;
+  background-color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 378, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.auto_pod {
+  min-height: 393px;
+  background-color: #070716;
+}
+
+/* line 383, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.container_auto .title {
+  margin-top: 35px;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 394, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.container_auto .subtitle {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 23px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+/* line 403, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.auto {
+  margin-top: 15px;
+  display: block;
+  margin: 0 auto;
+  max-height: 480px;
+  max-width: 720px;
+}
+
+/* line 413, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.subtitle_auto {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 421, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require {
+  padding: 68px 0 84px 0;
+}
+
+/* line 423, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require_block {
+  margin: 33px 0;
+}
+
+/* line 425, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require_block_nmb {
+  margin-bottom: 0px;
+}
+
+/* line 427, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require_titile {
+  font-weight: 400;
+  font-size: 22px;
+  color: #1CA8C3;
+}
+
+/* line 431, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+/* line 435, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require_list li {
+  font-size: 17px;
+  font-weight: 30;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+/* line 440, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require_list li::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate(-5px, -2px);
+  width: 21px;
+  height: 20px;
+  background: url(../icon/plus.png) center center/cover no-repeat;
+}
+
+/* line 448, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require_descr {
+  margin-top: 25px;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #1ca8c3;
+}
+
+/* line 455, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require .warning .require_titile {
+  color: #ff5656;
+}
+
+/* line 459, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.require .warning .require_list li:before {
+  background: url(../icon/check_red.png) center center/cover no-repeat;
+}
+
+/* line 461, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.world {
+  widows: 998.89px;
+  height: 360px;
+  background: url(../jpg/bg.png) center center/cover no-repeat;
+}
+
+/* line 465, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.world .label_world {
+  background-color: #FFFFFF;
+  height: 24px;
+  width: 112px;
+  margin: 0 auto;
+  margin-margin-top: 10px;
+  padding: 5px 12px;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 477, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.world .title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 19px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* line 485, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.world .subtitle {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 21px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* line 494, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.world .label_world1 {
+  width: 223px;
+  height: 68px;
+  margin: 0 auto;
+  margin-top: 190px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1FBAD6;
+}
+
+/* line 509, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_divider {
+  width: 299px;
+  height: 4px;
+  background-color: #1fbad6;
+  margin: 0 auto;
+}
+
+/* line 514, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 32px;
+}
+
+/* line 519, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_wrapper > div {
+  width: 33%;
+}
+
+/* line 521, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_wrapper > div:ntn-child(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 524, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_social {
+  width: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 528, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_social i {
+  color: #fff;
+}
+
+/* line 530, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_social_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4px;
+  width: 32px;
+  height: 32px;
+  background-color: #070716;
+  border-radius: 100%;
+}
+
+/* line 539, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_links {
+  width: 390px;
+  margin: 0 auto;
+}
+
+/* line 542, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_links_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+/* line 546, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_links_main a {
+  color: #070716;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 551, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_links_sub {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+/* line 555, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_links_sub a {
+  color: #999999;
+  font-weight: 300;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+/* line 560, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_lang {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+/* line 564, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_lang a {
+  color: #1FBAD6;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+/* line 568, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.footer_app {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 571, C:/Users/Zero/Desktop/Новая папка (3)/sass/_general.sass */
+.xs-visible {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  /* line 3, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .require_discr {
+    padding-left: 5px;
+  }
+}
+
+/* line 6, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+.reasons_block {
+  align-items: flex-start;
+}
+
+/* line 9, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+.menu_link {
+  font-size: 13px;
+}
+
+@media (max-width: 991px) {
+  /* line 14, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 16, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 20, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 22, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 25, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader .subheader_official {
+    line-height: 22px;
+  }
+  /* line 27, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 29, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_btn {
+    margin-top: 21px;
+    width: 100%;
+    height: 40px;
+  }
+  /* line 34, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 36, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 38, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .reasons_block {
+    flex-direction: column;
+    flex-direction-align-items: center;
+    margin-right: 0;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  /* line 44, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .mobile_item {
+    width: 250px;
+    height: 280px;
+  }
+  /* line 48, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .footer_links_sub a {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 52, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: -100%;
+    wifth: 50%;
+    height: 100vh;
+    pading: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 64, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  _active {
+    left: 0;
+  }
+  /* line 66, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  _item {
+    padding-right: 0;
+    border: 0;
+    margin-top: 10px 0;
+  }
+  /* line 70, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .menu_link {
+    font-size: 20px;
+  }
+  /* line 72, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 26px;
+    height: 12px;
+    z-index: 1;
+  }
+  /* line 81, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .hamburger span {
+    display: block;
+    height: 2PX;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 2PX;
+    transition: 0.5s all;
+  }
+  /* line 89, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .hamburger_active span {
+    margin-bottom: -2PX;
+  }
+  /* line 91, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  /* line 93, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  /* line 95, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
+  /* line 97, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .xs-hiden {
+    display: none;
+  }
+  /* line 99, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .xs-visible {
+    display: block;
+  }
+  /* line 102, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_phone {
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+  /* line 110, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  /* line 117, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .promo_header {
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 120, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader {
+    height: 60px;
+  }
+  /* line 122, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_official {
+    display: none;
+  }
+  /* line 124, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_logo {
+    margin-top: 16px;
+  }
+  /* line 126, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_phone {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 11px;
+  }
+  /* line 131, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .subheader_btn {
+    width: 110px;
+    height: 22px;
+    font-size: 10px;
+    margin-top: 6px;
+  }
+  /* line 136, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 139, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 141, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 145, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 150, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+  }
+  /* line 154, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 156, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  /* line 160, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .menu_link {
+    display: block;
+  }
+  /* line 162, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .two {
+    padding: 22px 0 36px 0;
+  }
+  /* line 165, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .reasons_h2 {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 169, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 171, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .reasons_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 174, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .reasons_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 177, C:/Users/Zero/Desktop/Новая папка (3)/sass/_media.sass */
+  .reasons_subtitle {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
